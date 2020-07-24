@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;}
+.container {width: 320px;height: 480px;background: url("../images/game_bg.jpg") no-repeat 0 0;margin: 50px auto;position: relative;}
+.container > h1{margin-left: 60px;color: #fff;}
+.container .progress { background: url("../images/progress.png") no-repeat 0 0;width: 180px;height: 16px;position: absolute;top:66px;left: 63px;}
+.container .start { width: 150px;line-height: 35px;background: orangered;border-radius: 20px;border: none;position: absolute;top:320px;left: 50%;margin-left: -75px;font-size: 20px;color: #fff;}
+.container .rules {width: 100%;height: 20px;position: absolute;bottom: 0;background: #ccc;text-align: center;}
+.container .rule {display: none; width: 100%;background: rgba(0,0,0,.5);position: absolute;top: 0;bottom: 0;text-align: center;padding-top: 100px;}
+.container .rule p { line-height: 40px;color: #fff;}
+.container .mask {display: none; width: 100%;background: rgba(0,0,0,.5);position: absolute;top: 0;bottom: 0;text-align: center;padding-top: 100px;}
+.container .mask > h1 { font-size: 40px;color: orangered;text-shadow: 3px 3px 0 #fff; }
+.container .mask > button {  width: 150px;line-height: 35px;background: deepskyblue;border-radius: 20px;border: none;position: absolute;top:320px;left: 50%;margin-left: -75px;font-size: 20px;color: #fff;}
